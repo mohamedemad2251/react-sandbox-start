@@ -1,4 +1,4 @@
 # Any .md file (Brad's Rights/License)
-*.md
+*/*.md
 # Any item in /images (His content too)
 /images/*
