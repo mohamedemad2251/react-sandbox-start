@@ -18,7 +18,7 @@ const apiClient = {
             const data = await res.json();
             return data;
         } catch (error) {
-            return error;
+            throw new Error(error);
         }
     }
 };

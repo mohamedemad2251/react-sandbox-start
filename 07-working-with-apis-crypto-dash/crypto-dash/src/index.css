@@ -15,7 +15,7 @@ h1 {
 }
 
 a {
-  color: #fff;
+  color: #4090db;
   text-decoration: none;
 }
 
@@ -31,6 +31,10 @@ a {
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   transition: transform 0.2s ease;
+}
+
+.error {
+  color: #fb2c36;
 }
 
 .coin-card:hover {
