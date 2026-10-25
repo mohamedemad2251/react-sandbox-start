@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "category": {
+      "type": "enumeration",
+      "required": true,
+      "default": "Frontend",
+      "enum": [
+        "Frontend",
+        "Fullstack",
+        "Design",
+        "Mobile"
+      ]
+    },
+    "featured": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "url": {
+      "type": "string",
+      "default": "https://example.com",
+      "required": true
+    }
+  }
+}
