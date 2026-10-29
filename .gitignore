@@ -2,3 +2,5 @@
 */*.md
 # Any item in /images (His content too)
 /images/*
+# Specifically remove the environment variables from the tanstack "Github Finder" project
+16-tanstack-query-github-finder-project/github-finder/.env*
